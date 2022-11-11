@@ -1,7 +1,7 @@
 
-import Test
+import ExampleClassFile as Ex
 
-vehicle_object = Test.Vehicle('Honda', 'Ridgeline', 'Truck')
+vehicle_object = Ex.Vehicle('Honda', 'Ridgeline', 'Truck')
 
 print(vehicle_object.brand)
 print(vehicle_object.model)
